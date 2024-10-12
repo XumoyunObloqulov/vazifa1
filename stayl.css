@@ -1,0 +1,87 @@
+body {
+    padding: 0;
+    margin: 0;
+
+}
+
+section {
+    height: 40vh;
+    background-color: wheat;
+
+}
+
+h1 {
+    color: rgb(189, 89, 89);
+    font-size: 50px;
+    position: absolute;
+    top: 40%;
+    transform: translateY(-40%);
+    text-align: center;
+    width: 40%;
+    
+}
+
+h1 span {
+    display: inline-block;
+    animation: eid 1% linear forwards;
+
+}
+
+@keyframes eid {
+    0% {
+        transform: rotateY(90deg);
+        filter: blur(0px);
+        opacity: 1;
+
+    }
+
+    100% {
+        transform: rotateY(0deg);
+        filter: blur(0px);
+        opacity: 1;
+    }
+
+
+}
+
+
+video {
+    height: 100vh;
+}
+h1 span:nth-child(1) {
+    animation-delay: 1s;
+    animation-name: eid;
+    animation-duration: 4s;
+}
+h1 span:nth-child(2) {
+    animation-delay: 2s;  
+    animation-name: eid;
+    animation-duration: 4s;
+    
+    
+}
+h1 span:nth-child(3) { 
+    animation-delay: 3s;  
+    animation-name: eid;
+    animation-duration: 4s;
+}
+h1 span:nth-child(4) {
+    animation-delay: 4s;
+    animation-name: eid;
+    animation-duration: 4s;
+}
+h1 span:nth-child(5) {
+    animation-delay: 5s;
+    animation-name: eid;
+    animation-duration: 4s;
+}
+h1 span:nth-child(6) {
+    animation-delay: 6s;
+    animation-name: eid;
+    animation-duration: 4s;
+}
+h1 span:nth-child(7) {
+    animation-delay: 7s;
+    animation-name: eid;
+    animation-duration: 4s;
+}
